@@ -9,6 +9,7 @@ import {
   AITaskEnhancement,
   ScheduleSuggestion,
   TimeBlock,
+  DailySummary,
 } from '@/types';
 import { apiClient } from '@/lib/api';
 import toast from 'react-hot-toast';
@@ -114,6 +115,24 @@ export function useAIAnalysis() {
     }
   }, []);
 
+  const getDailySummary = useCallback(async (
+    userId: number
+  ): Promise<DailySummary | null> => {
+    try {
+      setLoading(true);
+      setError(null);
+      const result = await apiClient.getDailySummary(userId);
+      return result;
+    } catch (err: any) {
+      const errorMessage = err.response?.data?.error || 'Failed to get daily summary';
+      setError(errorMessage);
+      toast.error(errorMessage);
+      return null;
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
   return {
     loading,
     error,
@@ -122,6 +141,7 @@ export function useAIAnalysis() {
     suggestDeadline,
     categorizeTask,
     enhanceTask,
+    getDailySummary,
   };
 }
 

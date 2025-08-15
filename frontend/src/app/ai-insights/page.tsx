@@ -29,15 +29,14 @@ export default function AIInsightsPage() {
   useEffect(() => {
     if (user?.id) {
       fetchTaskStats();
-      handleGetDailySummary();
     }
   }, [user]);
 
   const fetchTaskStats = async () => {
     setLoadingStats(true);
     try {
-      const response = await apiClient.get('/tasks/tasks/');
-      const tasks = response.data.results || response.data;
+      const response = await apiClient.getTasks();
+      const tasks = response.results || response;
       
       const stats = {
         total: tasks.length,
