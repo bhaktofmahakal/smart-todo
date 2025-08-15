@@ -29,6 +29,7 @@ export default function AIInsightsPage() {
   useEffect(() => {
     if (user?.id) {
       fetchTaskStats();
+      handleGetDailySummary();
     }
   }, [user]);
 
