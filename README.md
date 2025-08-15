@@ -4,6 +4,8 @@
 
 A comprehensive full-stack web application that combines intelligent task management with AI-powered features. Built with Django REST Framework backend, Next.js frontend, and integrated with Google Gemini AI for smart task analysis and recommendations.
 
+## VIDEO :-  https://www.youtube.com/watch?v=2LbAhTymbQc
+
 ## 🏆 Assignment Requirements Fulfilled
 
 ### ✅ Backend (Django REST Framework)
