@@ -1,0 +1,417 @@
+﻿[
+  {
+    "id": 14,
+    "title": "Imported Task 2",
+    "description": "Another imported task",
+    "ai_enhanced_description": "",
+    "priority": "medium",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": null,
+    "tags": [],
+    "tags_list": [],
+    "deadline": null,
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-14T09:10:06.256327Z",
+    "updated_at": "2025-08-14T09:10:06.256327Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 13,
+    "title": "Imported Task 1",
+    "description": "This is an imported task",
+    "ai_enhanced_description": "",
+    "priority": "high",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": null,
+    "tags": [],
+    "tags_list": [],
+    "deadline": null,
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-14T09:10:06.249789Z",
+    "updated_at": "2025-08-14T09:10:06.249789Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 12,
+    "title": "Test Task from API",
+    "description": "This is a test task created via API",
+    "ai_enhanced_description": "",
+    "priority": "high",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": null,
+    "tags": [],
+    "tags_list": [],
+    "deadline": null,
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-14T08:23:52.946132Z",
+    "updated_at": "2025-08-14T08:23:52.946132Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 11,
+    "title": "Investigate API Test Context Entry",
+    "description": "If the 'Test context entry from API testing' requires further action, determine what steps are necessary.",
+    "ai_enhanced_description": "",
+    "priority": "low",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": 8,
+    "category_name": "Software Testing",
+    "tags": [],
+    "tags_list": [],
+    "deadline": null,
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-14T08:23:19.966661Z",
+    "updated_at": "2025-08-14T08:23:19.966661Z",
+    "completed_at": null,
+    "context_used": {
+      "source_context_id": 10
+    },
+    "ai_insights": {
+      "suggestion_data": {
+        "title": "Investigate API Test Context Entry",
+        "category": "Software Testing",
+        "deadline": null,
+        "priority": "low",
+        "description": "If the 'Test context entry from API testing' requires further action, determine what steps are necessary."
+      },
+      "created_from_context": true
+    }
+  },
+  {
+    "id": 10,
+    "title": "Practice Presentation",
+    "description": "Rehearse the presentation to ensure a smooth and confident delivery.",
+    "ai_enhanced_description": "",
+    "priority": "medium",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": 7,
+    "category_name": "Presentation Preparation",
+    "tags": [],
+    "tags_list": [],
+    "deadline": null,
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-14T07:57:35.305155Z",
+    "updated_at": "2025-08-14T07:57:35.305155Z",
+    "completed_at": null,
+    "context_used": {
+      "source_context_id": 9
+    },
+    "ai_insights": {
+      "suggestion_data": {
+        "title": "Practice Presentation",
+        "category": "Presentation Preparation",
+        "deadline": "2024-01-11T18:00:00Z",
+        "priority": "medium",
+        "description": "Rehearse the presentation to ensure a smooth and confident delivery."
+      },
+      "created_from_context": true
+    }
+  },
+  {
+    "id": 9,
+    "title": "Review and Finalize Slides",
+    "description": "Thoroughly review the completed slides before the presentation to ensure accuracy and clarity.",
+    "ai_enhanced_description": "",
+    "priority": "high",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": 7,
+    "category_name": "Presentation Preparation",
+    "tags": [],
+    "tags_list": [],
+    "deadline": null,
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-14T07:57:35.288147Z",
+    "updated_at": "2025-08-14T07:57:35.288147Z",
+    "completed_at": null,
+    "context_used": {
+      "source_context_id": 9
+    },
+    "ai_insights": {
+      "suggestion_data": {
+        "title": "Review and Finalize Slides",
+        "category": "Presentation Preparation",
+        "deadline": "2024-01-11T23:00:00Z",
+        "priority": "high",
+        "description": "Thoroughly review the completed slides before the presentation to ensure accuracy and clarity."
+      },
+      "created_from_context": true
+    }
+  },
+  {
+    "id": 6,
+    "title": "Buy groceries",
+    "description": "Weekly grocery shopping - milk, bread, vegetables, fruits",
+    "ai_enhanced_description": "",
+    "priority": "low",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": 6,
+    "category_name": "Shopping",
+    "tags": [],
+    "tags_list": [],
+    "deadline": "2025-08-11T15:52:10.106804Z",
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-10T15:52:10.231707Z",
+    "updated_at": "2025-08-10T15:52:10.231707Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 7,
+    "title": "Code review for new feature",
+    "description": "Review pull request for authentication module",
+    "ai_enhanced_description": "",
+    "priority": "high",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "completed",
+    "category": 1,
+    "category_name": "Work",
+    "tags": [
+      5
+    ],
+    "tags_list": [
+      {
+        "id": 5,
+        "name": "review",
+        "color": "#F59E0B",
+        "usage_count": 0,
+        "created_at": "2025-08-10T15:52:10.098618Z"
+      }
+    ],
+    "deadline": "2025-08-09T15:52:10.106804Z",
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-10T15:52:10.231707Z",
+    "updated_at": "2025-08-10T15:52:10.241816Z",
+    "completed_at": "2025-08-10T13:52:10.241196Z",
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 5,
+    "title": "Monthly budget review",
+    "description": "Review and analyze monthly expenses and savings",
+    "ai_enhanced_description": "",
+    "priority": "medium",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": 5,
+    "category_name": "Finance",
+    "tags": [
+      5
+    ],
+    "tags_list": [
+      {
+        "id": 5,
+        "name": "review",
+        "color": "#F59E0B",
+        "usage_count": 0,
+        "created_at": "2025-08-10T15:52:10.098618Z"
+      }
+    ],
+    "deadline": "2025-08-13T15:52:10.106804Z",
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-10T15:52:10.220127Z",
+    "updated_at": "2025-08-10T15:52:10.220127Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 4,
+    "title": "Learn React hooks",
+    "description": "Study advanced React hooks patterns and best practices",
+    "ai_enhanced_description": "",
+    "priority": "low",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": 4,
+    "category_name": "Learning",
+    "tags": [
+      4
+    ],
+    "tags_list": [
+      {
+        "id": 4,
+        "name": "research",
+        "color": "#10B981",
+        "usage_count": 0,
+        "created_at": "2025-08-10T15:52:10.098618Z"
+      }
+    ],
+    "deadline": "2025-08-17T15:52:10.106804Z",
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-10T15:52:10.147492Z",
+    "updated_at": "2025-08-10T15:52:10.147492Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 3,
+    "title": "Gym workout",
+    "description": "Complete cardio and strength training session",
+    "ai_enhanced_description": "",
+    "priority": "medium",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "pending",
+    "category": 3,
+    "category_name": "Health",
+    "tags": [],
+    "tags_list": [],
+    "deadline": "2025-08-10T21:52:10.106804Z",
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-10T15:52:10.139663Z",
+    "updated_at": "2025-08-10T15:52:10.139663Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {}
+  },
+  {
+    "id": 2,
+    "title": "Test Task Update",
+    "description": "Updated description",
+    "ai_enhanced_description": "Prepare agenda and materials for weekly team meeting",
+    "priority": "high",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "in_progress",
+    "category": 1,
+    "category_name": "Work",
+    "tags": [
+      2
+    ],
+    "tags_list": [
+      {
+        "id": 2,
+        "name": "meeting",
+        "color": "#3B82F6",
+        "usage_count": 0,
+        "created_at": "2025-08-10T15:52:10.090326Z"
+      }
+    ],
+    "deadline": "2025-08-11T15:52:10.106804Z",
+    "ai_suggested_deadline": "2025-08-14T13:36:42.097088Z",
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-10T15:52:10.137989Z",
+    "updated_at": "2025-08-14T07:41:37.818595Z",
+    "completed_at": null,
+    "context_used": {},
+    "ai_insights": {
+      "analyzed_at": "2025-08-13T08:06:43.362835+00:00",
+      "enhancement": {
+        "added_details": [],
+        "resources_needed": [],
+        "potential_blockers": [],
+        "suggested_subtasks": [],
+        "enhanced_description": "Prepare agenda and materials for weekly team meeting"
+      },
+      "categorization": {
+        "reasoning": "Default categorization",
+        "confidence": 0.5,
+        "suggested_tags": [
+          "general"
+        ],
+        "suggested_category": "General",
+        "alternative_categories": [
+          "Work",
+          "Personal"
+        ]
+      },
+      "deadline_suggestion": {
+        "reasoning": "Default 1-day deadline",
+        "complexity_score": 0.5,
+        "estimated_duration": "1 hour",
+        "suggested_deadline": "2025-08-14T13:36:42.097088",
+        "alternative_deadlines": []
+      }
+    }
+  },
+  {
+    "id": 1,
+    "title": "Complete project proposal",
+    "description": "Finish the Q1 project proposal document and send for review",
+    "ai_enhanced_description": "",
+    "priority": "high",
+    "ai_priority_score": 0.5,
+    "ai_priority_reasoning": "",
+    "status": "completed",
+    "category": 1,
+    "category_name": "Work",
+    "tags": [
+      3,
+      1
+    ],
+    "tags_list": [
+      {
+        "id": 3,
+        "name": "project",
+        "color": "#8B5CF6",
+        "usage_count": 0,
+        "created_at": "2025-08-10T15:52:10.098618Z"
+      },
+      {
+        "id": 1,
+        "name": "urgent",
+        "color": "#EF4444",
+        "usage_count": 0,
+        "created_at": "2025-08-10T15:52:10.090326Z"
+      }
+    ],
+    "deadline": "2025-08-12T15:52:10.106804Z",
+    "ai_suggested_deadline": null,
+    "estimated_duration": null,
+    "user": 1,
+    "created_at": "2025-08-10T15:52:10.114173Z",
+    "updated_at": "2025-08-13T08:06:36.057841Z",
+    "completed_at": "2025-08-13T08:06:36.040552Z",
+    "context_used": {},
+    "ai_insights": {}
+  }
+]
